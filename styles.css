@@ -1,0 +1,180 @@
+
+
+
+
+#wrapper {
+  background-color: white;
+  padding-left: 250px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+
+
+
+#sidebar-wrapper {
+
+
+		    position: fixed;
+
+                    left: 250px;
+
+                    width: 250px;
+
+                    height: 100%;
+
+                    margin-left: -250px;
+
+                    overflow-y: scroll;
+
+  		    overflow-x: hidden;
+
+
+		    -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+
+}
+
+
+
+
+
+
+
+
+
+/* Sidebar Styles */
+
+
+.sidebar-nav {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+.sidebar-nav li {
+  text-indent: 20px;
+  line-height: 40px;
+}
+
+
+.sidebar-nav li a {
+  display: block;
+  text-decoration: none;
+  color: #999999;
+}
+
+
+.sidebar-nav li a:hover {
+  text-decoration: none;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+
+.sidebar-nav li a:active, .sidebar-nav li a:focus {
+  text-decoration: none;
+}
+
+
+.sidebar-nav>.sidebar-brand {
+  height: 65px;
+  font-size: 18px;
+  line-height: 60px;
+}
+
+.sidebar-nav>.sidebar-brand a {
+  color: #999999;
+}
+
+
+.sidebar-nav>.sidebar-brand a:hover {
+  color: #fff;
+  background: none;
+}
+
+
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+
+.menuBorderStyle{
+  border:solid 3px grey;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  margin-bottom: 40px;
+
+
+}
+
+.spacing{
+  margin-left: 10px
+}
+
+ .table1{
+
+   height:200px;
+    width:200px;
+    position:relative;
+    left:300px;
+    top:50px;
+    border: solid 3px;
+ }
+ .table2{
+   height:200px;
+    width:200px;
+    position:absolute;
+    left:1200px;
+    top:100px;
+    border: solid 3px;
+ }
+ .table3{
+   height:200px;
+    width:200px;
+   position:absolute;
+   left:900px;
+   top:400px;
+   border: solid 3px;
+
+ }
+.sectioncolor{
+  width: 100%;
+  height:100%;
+}
+
+.list-group-item:hover {
+    background-color: darkgrey;;
+}
+
+#chartContainer1 {
+  height:300px;
+  width:500px;
+  position:absolute;
+  left:650px;
+  top:70px;
+}
+#chartContainer2{
+  height:300px;
+  width:500px;
+   position:absolute;
+   left: 300px;
+   top:375px;
+   border: solid 3px;
+}
+footer{
+  text-align: center;
+    margin-top: 420px;
+    padding-left: 30px;
+}
